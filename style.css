@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  width: 100vw;
+  margin: 0;
+  background: no-repeat url('./sky.jpeg') fixed center / cover;
+}
+
+.blurred_block{
+  height: 50px;
+  width: 100%;
+  background: rgba(28, 11, 11, 0.09);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(4px);
+  margin-bottom: calc(100vh - 50px);
+}
+
+.content{
+  background: #fff;
+  padding: 1em;
+}
